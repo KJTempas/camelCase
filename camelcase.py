@@ -1,3 +1,4 @@
+#git practice creating branches, merging; functions are separate branches
 def camel_case(sentence):
     title_case = sentence.title() #uppercase first letter of each word
     upper_camel_cased=title_case.replace(' ' ,'') #remove spaces
