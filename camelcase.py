@@ -21,8 +21,8 @@ def main():
     banner() 
     instructions()
     sentence = input('Enter your sentence:  ')
-    output = camel_case(sentence)
-    print(f' Your sentence in camel case looks like this {output}')
+    camelcased = camel_case(sentence)
+    print(f' Your sentence in camel case looks like this {camelcased}')
 
 if __name__ == '__main__':
     main()
