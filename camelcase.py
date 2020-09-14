@@ -1,5 +1,7 @@
-#git practice creating branches, merging; functions are separate branches
+import re
+
 def camel_case(sentence):
+    sentence = re.sub(r'[\t\n]', ' ', sentence) #sub tab and newline with space
     title_case = sentence.title() #uppercase first letter of each word - claraj version
     upper_camel_cased=title_case.replace(' ' ,'') #remove spaces - claraj version
     #lowercase first letter, join w/ rest of string
